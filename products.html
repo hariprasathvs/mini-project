@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Product List</h2>
+      <table id="productTable">
+        <tr>
+          <th>Product</th>
+          <th>Price (Rs)</th>
+          <th>Quantity</th>
+        </tr>
+        <tr>
+          <td>Coffee</td>
+          <td>15</td>
+          <td><input type="number" min="0" value="0" /></td>
+        </tr>
+        <tr>
+          <td>Tea</td>
+          <td>10</td>
+          <td><input type="number" min="0" value="0" /></td>
+        </tr>
+        <tr>
+          <td>Biscuits</td>
+          <td>5</td>
+          <td><input type="number" min="0" value="0" /></td>
+        </tr>
+      </table>
+      <br />
+      <button id="placeOrderBtn">Place Order</button>
+      <br />
+    </div>
+
+    <script src="products.js"></script>
+  </body>
+</html>
